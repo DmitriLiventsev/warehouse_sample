@@ -16,10 +16,12 @@ class ProductsController < ApplicationController
   # GET /products/new
   def new
     @product = Product.new
+    @categories = Category.all
   end
 
   # GET /products/1/edit
   def edit
+    @categories = Category.all
   end
 
   # POST /products
@@ -44,7 +46,7 @@ class ProductsController < ApplicationController
   # PATCH/PUT /products/1.json
   def update
     respond_to do |format|
-      if @product.update(product_params)
+       if @product.update(product_params)
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }
         format.json { render :show, status: :ok, location: @product }
         format.js {}
@@ -76,6 +78,6 @@ class ProductsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def product_params
-      params.fetch(:product, {}).permit(:description, :price)
+      params.fetch(:product, {}).permit(:description, :price, category_ids: [], category_ids_attributes: [ :id ])
     end
 end
