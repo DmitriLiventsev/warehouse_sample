@@ -11,17 +11,24 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :email %>
-    <%= f.text_field :email %>
+<fieldset class="form-group">
+</fieldset>
+
+  <div class="form-group row">
+    <%= f.label :email, :class => "col-xs-2 col-form-label" %>
+    <div class="col-xs-10">
+      <%= f.text_field :email, :class => "form-control" %>
+    </div>
   </div>
 
-  <div class="field">
-    <%= f.label :password %>
-    <%= f.text_field :password %>
+  <div class="form-group row">
+    <%= f.label :password, :class => "col-xs-2 col-form-label" %>
+    <div class="col-xs-10">
+      <%= f.password_field :password, :class => "form-control" %>
+    </div>
   </div>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit :class => "btn btn-success" %>
   </div>
 <% end %>
