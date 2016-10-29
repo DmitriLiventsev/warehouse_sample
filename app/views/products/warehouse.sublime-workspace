@@ -1,0 +1,245 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"text_field"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/workspace/warehouse"
+	],
+	"file_history":
+	[
+		"/workspace/warehouse/app/views/categories/update.js.erb",
+		"/workspace/warehouse/app/views/products/create.js.erb",
+		"/workspace/warehouse/app/views/categories/_form.html.erb",
+		"/workspace/warehouse/app/views/users/_form.html.erb",
+		"/workspace/warehouse/app/views/products/_form.html.erb",
+		"/workspace/warehouse/app/views/products/update.js.erb",
+		"/workspace/warehouse/app/views/users/create.js.erb",
+		"/workspace/warehouse/app/views/shared/_error_messages.html.erb",
+		"/workspace/warehouse/app/controllers/products_controller.rb",
+		"/workspace/warehouse/app/views/categories/create.js.erb",
+		"/workspace/warehouse/app/views/shared/error_messages.html.erb",
+		"/workspace/warehouse/app/views/categories/index.html.erb",
+		"/workspace/warehouse/app/controllers/users_controller.rb",
+		"/workspace/warehouse/app/controllers/categories_controller.rb",
+		"/workspace/warehouse/app/assets/stylesheets/products.scss",
+		"/workspace/warehouse/app/models/product.rb",
+		"/workspace/warehouse/app/models/user.rb",
+		"/workspace/warehouse/app/models/category.rb",
+		"/workspace/warehouse/app/assets/javascripts/products.coffee",
+		"/workspace/warehouse/README.md",
+		"/workspace/warehouse/db/migrate/20161029135308_add_test_user.rb",
+		"/workspace/warehouse/app/views/categories/new.html.erb",
+		"/workspace/warehouse/app/views/products/new.html.erb",
+		"/workspace/warehouse/app/views/categories/edit.html.erb",
+		"/workspace/warehouse/app/views/users/new.html.erb",
+		"/workspace/warehouse/config/routes.rb",
+		"/workspace/warehouse/app/views/products/edit.html.erb",
+		"/workspace/warehouse/app/views/products/show.html.erb",
+		"/workspace/warehouse/app/views/layouts/application.html.erb",
+		"/workspace/warehouse/app/views/products/index.html.erb",
+		"/workspace/warehouse/Gemfile",
+		"/workspace/warehouse/app/assets/stylesheets/application.scss",
+		"/workspace/warehouse/app/assets/javascripts/application.js",
+		"/workspace/warehouse/app/assets/javascripts/application.scss",
+		"/workspace/warehouse/app/assets/stylesheets/bootstrap.scss",
+		"/workspace/warehouse/config/environment.rb",
+		"/workspace/warehouse/config/initializers/carrierwave.rb",
+		"/workspace/warehouse/app/uploaders/image_uploader.rb",
+		"/workspace/warehouse/.gitignore",
+		"/workspace/warehouse/app/models/product_category.rb",
+		"/workspace/warehouse/db/migrate/20161028171007_create_product_categories.rb",
+		"/workspace/warehouse/app/views/categories/destroy.js.erb",
+		"/workspace/warehouse/app/views/categories/show.html.erb",
+		"/workspace/warehouse/app/views/products/destroy.js.erb",
+		"/workspace/warehouse/db/schema.rb",
+		"/workspace/warehouse/app/assets/javascripts/cable.js",
+		"/workspace/warehouse/app/views/products/_product.json.jbuilder",
+		"/workspace/warehouse/app/views/products/show.js.erb",
+		"/workspace/warehouse/db/migrate/20161028112824_add_description_to_products.rb",
+		"/workspace/warehouse/db/migrate/20161028110333_create_products.rb",
+		"/workspace/warehouse/db/migrate/20161028103828_devise_create_users.rb",
+		"/workspace/warehouse/config/environments/production.rb",
+		"/workspace/warehouse/config/environments/test.rb",
+		"/workspace/warehouse/config/environments/development.rb",
+		"/workspace/warehouse/app/controllers/application_controller.rb",
+		"/workspace/test_app/Gemfile"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/workspace/warehouse/app/controllers"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$",
+			">>",
+			"users_controller",
+			"rails"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "warehouse.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"product.rb",
+				"app/models/product.rb"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 315.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

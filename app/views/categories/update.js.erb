@@ -1,4 +1,5 @@
 <% if @result %>
+	$('#error_explanation').show();
 	alert('Category was succesfully updated');
 <% else %>
 	$('#error_explanation').html("<%= j(render 'shared/error_messages', object: @category) %>");
