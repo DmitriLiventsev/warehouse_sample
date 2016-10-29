@@ -1,5 +1,8 @@
 <p id="notice"><%= notice %></p>
 <p>
+	<% if !@product['image'].blank? %>
+		<%= image_tag @product.image_url %>
+	<% end %>
 	<%= @product.description %>
 	<%= @product.price %>
 </p>

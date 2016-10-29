@@ -11,6 +11,7 @@
     </div>
   <% end %>
   <div class="field">
+    <%= f.file_field :image, accept: 'image/png, image/gif, image/jpeg, image/jpg', id: 'uploadImage'%>
     <%= f.label :description %>
     <%= f.text_field :description %>
     <%= f.label :price %>

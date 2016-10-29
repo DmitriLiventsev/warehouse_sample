@@ -3,4 +3,6 @@ class Product < ApplicationRecord
 	has_many :categories, through: :product_category
 
 	validates :description, :price, presence: true
+
+	mount_uploader :image, ImageUploader
 end
