@@ -1,5 +1,6 @@
 <% if @result %>
 	alert('User was successfully created.')
 <% else %>
-	alert('Oops! Something went wrong!');
+	$('#error_explanation').html("<%= j(render 'shared/error_messages', object: @user) %>");
+	$('#error_explanation').show();
 <% end %>

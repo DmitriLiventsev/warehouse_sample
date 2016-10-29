@@ -1,6 +1,7 @@
 <% if @result %>
-	$("#error_explanation").hide();
-	alert('Product was succesfully updated');
+  	$("#error_explanation").hide();
+ 	 alert('Product was succesfully updated');
 <% else %>
-	alert('Oops! Something went wrong!');
+  	$('#error_explanation').html("<%= j(render 'shared/error_messages', object: @product) %>");
+  	$('#error_explanation').show();
 <% end %>

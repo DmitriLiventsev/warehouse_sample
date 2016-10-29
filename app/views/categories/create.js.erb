@@ -1,5 +1,6 @@
 <% if @result %>
 	alert('Category was succesfully created');
 <% else %>
-	alert('Oops! Something went wrong!');
+	$('#error_explanation').html("<%= j(render 'shared/error_messages', object: @category) %>");
+	$('#error_explanation').show();
 <% end %>
