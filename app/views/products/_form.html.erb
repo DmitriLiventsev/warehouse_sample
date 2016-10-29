@@ -12,8 +12,9 @@
   <% end %>
   <div class="field">
     <p>
+      <div id="imagePreview"></div>
       <% if !@product['image'].blank? %>
-       <%= image_tag @product.image_url %>
+       <%= image_tag @product.image_url, :id => "productImage" %>
       <% end %>
       <%= f.file_field :image, accept: 'image/png, image/gif, image/jpeg, image/jpg', id: 'uploadImage'%>
     </p>

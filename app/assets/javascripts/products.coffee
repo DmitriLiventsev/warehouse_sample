@@ -1,42 +1,22 @@
-init_show_product = ->
-	$('#show-product').on 'click', ->
-		$.ajax
-			url: "/products/" + $(this).data('id') + '.json'
-			datatype: "json"
-			method: "GET"
-			success: (data) ->
-				alert(data.price)
-			error: (data) ->
-				alert("Error!")
-		return false
+init_image_uploader = ->
+	$('#uploadImage').on 'change', ->
+		readURL(this)
 
-init_edit_product = ->
-	$('#edit_product').on 'click', ->
-		$.ajax
-			url: "/products/" + $(this).data('id') + '.json'
-			datatype: "json"
-			data: $('form').serialize()
-			method: "PUT"
-			success: (data) ->
-				alert(data.price)
-			error: (data) ->
-				alert("Error!")
-		return false
+readURL = (input) ->
+  if input.files and input.files[0]
+    reader = new FileReader
 
-init_create_product = ->
-	$('#create_product').on 'click', ->
-		$.ajax
-			url: '/products.json'
-			datatype: "json"
-			data: $('form').serialize()
-			method: "POST"
-			success: (data) ->
-				alert(data.price)
-			error: (data) ->
-				alert("Error!")
-		return false
+    reader.onload = (e) ->
+      $('#imagePreview').css 'background', 'url(' + e.target.result + ')'
+      $('#imagePreview').show()
+      $('#imagePreview').width(400)
+      $('#imagePreview').height(400)
+      $('#productImage').hide()
+      return
+
+    $('.deletePhoto').show()
+    reader.readAsDataURL input.files[0]
+  return
+
 jQuery ->
-	init_show_product()
-	init_edit_product()
-
-	init_create_product()
+	init_image_uploader()
