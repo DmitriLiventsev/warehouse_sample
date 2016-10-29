@@ -31,7 +31,7 @@ class ProductsController < ApplicationController
     @categories = Category.all
 
     respond_to do |format|
-      if @product.save
+      if @result = @product.save
         format.html { redirect_to @product, notice: 'Product was successfully created.' }
         format.json { render :show, status: :created, location: @product }
         format.js {}
@@ -49,7 +49,7 @@ class ProductsController < ApplicationController
     @categories = Category.all
     
     respond_to do |format|
-       if @product.update(product_params)
+       if $result = @product.update(product_params)
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }
         format.json { render :show, status: :ok, location: @product }
         format.js {}

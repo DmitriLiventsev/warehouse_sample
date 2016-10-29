@@ -1,1 +1,6 @@
-alert('Product was succesfully updated');
+<% if @result %>
+	$("#error_explanation").hide();
+	alert('Product was succesfully updated');
+<% else %>
+	alert('Oops! Something went wrong!');
+<% end %>
